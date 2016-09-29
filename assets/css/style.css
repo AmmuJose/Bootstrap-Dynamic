@@ -62,6 +62,10 @@ footer {
 	background-color: #4aaaa5;
 	color: #fff;
 	font-weight: bold;
+	animation-name: brand;
+    animation-duration: 8s;
+    -webkit-animation-name: brand; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 8s; /* Chrome, Safari, Opera */
 }
 
 .navbar-default .navbar-nav li a {
@@ -145,4 +149,15 @@ textarea.form-control {
 	height:18%;
 	width: 100%;
 	right: 0px;
+}
+
+/* Animation Code */
+@-webkit-keyframes brand {
+    from {background-color: #e40040;}
+	to {background-color: #4aaaa5;}
+}
+
+@keyframes brand{
+	from {background-color: #e40040;}
+	to {background-color: #4aaaa5;}
 }
