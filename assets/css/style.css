@@ -16,13 +16,7 @@ footer {
 	clear: both;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-    margin-left: 0px;
-   }
-}
-
+/* content */
 .container {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -160,4 +154,28 @@ textarea.form-control {
 @keyframes brand{
 	from {background-color: #e40040;}
 	to {background-color: #4aaaa5;}
+}
+
+/* media query */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+    margin-left: 0px;
+   }
+}
+
+@media (max-width: 768px) and (min-width: 415px){
+	.panel {
+		width: 94%;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+}
+
+@media (max-width: 414px){
+	.panel {
+		width: 89%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
 }
